@@ -1,0 +1,141 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+/* nvbar */
+.nav-k{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.nav-k-i{
+    text-align: center;
+    padding: 15px 0px 15px;
+    color: rgb(82, 78, 78);
+} 
+.nav-k-i:hover{
+    background-color: #3e473066;
+    border-radius: 10px;
+}
+.navbar-brand{
+    color: rgb(82, 78, 78);
+}
+/*title seccion*/
+.k-title{
+    position: relative;
+}
+.k-title-txt{
+    -webkit-text-stroke: 1px #00000094;
+    color: #ffffff45;
+    font-size: 3rem;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+.k-title-txt-h1{
+    z-index: 1;
+    top: 15px;
+    position: relative;
+    margin: 10px 0 50px;
+}
+/* card */
+.card-k{
+    border: none;
+    width: 12rem;
+}
+
+
+.card-k-btn{
+    background: #54682b;
+    border: none;
+    color: white;
+    width: 100%;
+    font-weight: 300;
+}
+
+/* carrousel icon */
+.carousel-item-icon{
+    width: 300px;
+}
+/* FOOTER */
+    footer{
+        height: 150px; 
+    }
+    .footer-span{
+        text-align: center;
+        padding: 25px;
+    }
+
+    .footer-link{       
+        justify-content: space-evenly;
+        align-items: center;
+        font-weight: 100;
+        font-size: 14px;
+    } 
+    .f-link{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.513);
+    }
+
+
+/* BOOSTSTRAP */
+    /* carrousel */
+    .carousel-control-next, .carousel-control-prev{
+        z-index: 0;
+    }
+
+    /*BTN TOGGLER*/
+    .navbar-toggler:focus {
+    box-shadow: none;
+     }
+    .navbar-toggler{
+        border: none;
+     }
+    
+    /*nav-item*/
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+        display: flex;
+    }
+   
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+        color: #585858c4;
+    }
+
+    .carousel-i{
+        position: relative;
+        display: none;
+        float: left;
+        width: 100%;
+        margin-right: -100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: transform 10s ease-in-out;
+    }
+
+    .carousel-i.active,
+    .carousel-i-next,
+    .carousel-i-prev {
+    display: flex;
+    }
+
+    .carousel-i-next:not(.carousel-i-start),
+    .active.carousel-i-end {
+    transform: translateX(15%);
+    }
+
+    .carousel-i-prev:not(.carousel-i-end),
+    .active.carousel-i-start {
+    transform: translateX(-15%);
+    }
+    .active.carousel-i-start, .carousel-i-prev:not(.carousel-i-end) {
+        transform: translateX(-15%);
+     }
+    .form--bck{
+        background-image: url(../assets/footer-bckg.webp);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+
