@@ -28,8 +28,8 @@ body{
 }
 .btn-img-span{
     position: relative;
-    top: 110px;
-    right: 150px;
+    top: 100px;
+    right: 130px;
     font-size: 1.5rem;
     display: block;
     color: #ffffff8c;
@@ -55,9 +55,9 @@ body{
     font-size: 3rem;
     position: absolute;
     left: 20%;
-    top: 20%;
+    bottom: 25%;
 }
-.k-title-txt-h1{
+.k-title-txt-h2{
     z-index: 1;
     top: 15px;
     position: relative;
@@ -71,7 +71,6 @@ body{
 .card-k-w{
     width: 20%;
 }
-
 
 .card-k-btn{
     background: #54682b;
@@ -131,15 +130,6 @@ body{
     .navbar-toggler{
         border: none;
      }
-    
-    /*nav-item*/
-    .carousel-item-next, .carousel-item-prev, .carousel-item.active {
-        display: flex;
-    }
-   
-    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
-        color: #585858c4;
-    }
 
     .carousel-i{
         position: relative;
@@ -151,25 +141,6 @@ body{
         backface-visibility: hidden;
         transition: transform 10s ease-in-out;
     }
-
-    .carousel-i.active,
-    .carousel-i-next,
-    .carousel-i-prev {
-    display: flex;
-    }
-
-    .carousel-i-next:not(.carousel-i-start),
-    .active.carousel-i-end {
-    transform: translateX(15%);
-    }
-
-    .carousel-i-prev:not(.carousel-i-end),
-    .active.carousel-i-start {
-    transform: translateX(-15%);
-    }
-    .active.carousel-i-start, .carousel-i-prev:not(.carousel-i-end) {
-        transform: translateX(-15%);
-     }
     .form--bck{
         background-image: url(../assets/footer-bckg.webp);
         background-position: center;
@@ -222,7 +193,15 @@ body{
 }
     /* T A B L E T */
 @media (min-width: 577px) and (max-width: 1023px) {
-    body{
-        background-color: red;
+   
+    .card-k-w{
+        width: 47%;
+    }
+    .card-img-top{
+        width: 100%;
+    }
+    .card-k-cont{
+        flex-flow:wrap;
+        
     }
 }
