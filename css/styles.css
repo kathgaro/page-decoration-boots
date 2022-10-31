@@ -1,0 +1,21 @@
+/* nvbar */
+.nav--k {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.nav--k__i {
+  text-align: center;
+  padding: 15px 0px 15px;
+  color: rgb(82, 78, 78);
+}
+.nav--k__i:hover {
+  background-color: rgba(62, 71, 48, 0.4);
+  border-radius: 10px;
+}
+
+.navbar-brand {
+  color: rgb(82, 78, 78);
+}
+
+/*# sourceMappingURL=styles.css.map */
